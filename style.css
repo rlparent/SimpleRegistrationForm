@@ -17,3 +17,9 @@ body {
     height: 50%;
     padding: 10px;
 }
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
