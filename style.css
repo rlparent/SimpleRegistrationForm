@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
 body {
     background-color: lightblue;
     display: flex;
@@ -18,8 +22,16 @@ body {
     padding: 10px;
 }
 
+form {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .form-info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex-basis: 45%;
 }
